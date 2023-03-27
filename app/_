@@ -39,8 +39,6 @@ application {
     mainClass = 'demo.App'
 }
 
-
-
 tasks.register('listdir') {
     Directory dir
     Directory directory = directory.dir("app/src/main")
